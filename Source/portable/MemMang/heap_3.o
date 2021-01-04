@@ -1,0 +1,31 @@
+XL
+H 7 areas A global symbols
+M heap_3
+O -mz80
+S _free Ref0000
+S _malloc Ref0000
+S _vTaskSuspendAll Ref0000
+S _xTaskResumeAll Ref0000
+A _CODE size 43 flags 0
+S _pvPortMalloc Def0000
+S _vPortFree_start Def001F
+S _pvPortMalloc_start Def0000
+S _vPortFree_end Def0043
+S _pvPortMalloc_end Def001F
+S _vPortFree Def001F
+A _DATA size 0 flags 0
+A _OVERLAY size 0 flags 0
+A _HOME size 0 flags 0
+A _GSINIT size 0 flags 0
+A _GSFINAL size 0 flags 0
+A _CABS size 0 flags 0
+T 00 00 DD E5 DD 21 00 00 DD 39 CD 00 00 DD 6E 04
+R 00 00 00 00 02 0B 02 00
+T 0E 00 DD 66 05 E5 CD 00 00 E3 CD 00 00 C1 69 60
+R 00 00 00 00 02 07 01 00 02 0B 03 00
+T 1C 00 DD E1 C9 DD E5 DD 21 00 00 DD 39 DD 7E 04
+R 00 00 00 00
+T 2A 00 DD B6 05 28 11 CD 00 00 DD 6E 04 DD 66 05
+R 00 00 00 00 02 08 02 00
+T 38 00 E5 CD 00 00 F1 CD 00 00 DD E1 C9
+R 00 00 00 00 02 04 00 00 02 08 03 00

@@ -1,0 +1,46 @@
+ASxxxx Assembler V01.75  (Zilog Z80 / Hitachi HD64180), page 1.
+
+Symbol Table
+
+    _CTC                            =  0010 
+    _CTC0                           =  0010 
+    _CTC1                           =  0011 
+    _CTC2                           =  0012 
+    _CTC3                           =  0013 
+    _IPR                            =  00F2 
+    _PIO                            =  001C 
+    _PIOA                           =  001C 
+    _PIOA_C                         =  001D 
+    _PIOB                           =  001E 
+    _PIOB_C                         =  001F 
+    _SCDP                           =  00EF 
+    _SCRP                           =  00EE 
+    _SIO                            =  0018 
+    _SIOA                           =  0018 
+    _SIOA_C                         =  0019 
+    _SIOB                           =  001A 
+    _SIOB_C                         =  001B 
+    _WDTCR                          =  00F1 
+    _WDTMR                          =  00F0 
+    _free                              **** GX
+    _malloc                            **** GX
+  0 _pvPortMalloc                      0000 GR
+  0 _pvPortMalloc_end                  001F GR
+  0 _pvPortMalloc_start                0000 GR
+  0 _vPortFree                         001F GR
+  0 _vPortFree_end                     0043 GR
+  0 _vPortFree_start                   001F GR
+    _vTaskSuspendAll                   **** GX
+    _xTaskResumeAll                    **** GX
+
+ASxxxx Assembler V01.75  (Zilog Z80 / Hitachi HD64180), page 2.
+
+Area Table
+
+   0 _CODE                              size   43   flags 0
+   1 _DATA                              size    0   flags 0
+   2 _OVERLAY                           size    0   flags 0
+   3 _HOME                              size    0   flags 0
+   4 _GSINIT                            size    0   flags 0
+   5 _GSFINAL                           size    0   flags 0
+   6 _CABS                              size    0   flags 0
